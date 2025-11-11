@@ -1,7 +1,6 @@
 accelerate
 cmudict
 cn2an
-faster-whisper==0.10.1
 g2p_en
 GPUtil
 gradio>=4.32
@@ -29,5 +28,10 @@ stable_ts
 tensorboard
 torch<2.4
 torchaudio<2.4
-transformers
 umap-learn
+
+# https://github.com/litagin02/Style-Bert-VITS2/issues/224
+av>=12.0.0
+faster-whisper>=1.0.0
+soxr
+transformers<4.47.0
